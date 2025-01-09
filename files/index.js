@@ -6,8 +6,8 @@ const UUID = process.env.UUID || '88888888-8888-8888-8888-888888888888'; //若�
 const NEZHA_SERVER = process.env.NEZHA_SERVER || 'nz.f4i.cn';     
 const NEZHA_PORT = process.env.NEZHA_PORT || '';                        // 哪吒端口为{443,8443,2096,2087,2083,2053}其中之一开启tls
 const NEZHA_KEY = process.env.NEZHA_KEY || '';
-const ARGO_DOMAIN = process.env.ARGO_DOMAIN || 'choreo.skkb.link';      // 建议使用token，argo端口8080，cf后台设置需对应
-const ARGO_AUTH = process.env.ARGO_AUTH || 'eyJhIjoiYTQ4NDAyNTllMzUyMTIyZDZmNzBjMmE0NzI4OTk1MmIiLCJ0IjoiZGJiNWViMjQtNzk4ZS00MmNjLThhNDgtM2U4NGEyMzY1NDJjIiwicyI6Ik1UUTVaamhtTXpRdFl6STBaQzAwT1RNMUxUaGtZalF0WVRkaVlqTTBOamt6TURJeCJ9';
+const ARGO_DOMAIN = process.env.ARGO_DOMAIN || '';      // 建议使用token，argo端口8080，cf后台设置需对应
+const ARGO_AUTH = process.env.ARGO_AUTH || '';
 const CFIP = process.env.CFIP || 'www.visa.com.tw';
 const NAME = process.env.NAME || 'Choreo';
 
